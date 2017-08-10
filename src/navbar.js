@@ -20,8 +20,8 @@ class Navbar extends Component{
         </div>
         <ul className="nav navbar-nav">
           <li className="active"><a href="/">Home</a></li>
-          <li onclick="this.blur()"><a href="/gallery">Instagram</a></li>
-          <li onclick="this.blur()"><a href="/youtube">YouTube</a></li>
+          <li onclick="this.blur()"><a href="/gallery">Gallery</a></li>
+          <li onclick="this.blur()"><a href="/shop">PC TechShop</a></li>
           <li onclick="this.blur()"><a href="/market">Market</a></li>
           <li className="dropdown">
             <a href="" className="btn btn-inverse dropdown-toggle" type="button" data-toggle="dropdown">Direct Social Links  <span className="caret"></span></a>
@@ -37,6 +37,7 @@ class Navbar extends Component{
               <li><a href="https://www.facebook.com/profile.php?id=100003710533766/" target="_blank" rel="noreferrer noopener">Facebook<img className="dropicons" src="img/facebook.png" alt="facebook.jpg"/></a></li>
             </ul>
           </li>
+          <li onclick="this.blur()"><a href="/contact">Contact</a></li>
         </ul>
       </div>
   </nav>

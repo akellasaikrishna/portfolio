@@ -7,7 +7,7 @@ import About from './about';
 import Footer from './footer';
 import Contact from './contact';
 import Market from './market';
-import Youtube from './youtube';
+import Shop from './shop';
 import {
   BrowserRouter as Router,
   Route
@@ -44,11 +44,11 @@ const Market1 = () =>
 <Footer />
 </div>
 
-const Youtube1 = () =>
+const Shop1 = () =>
 <div>
 <Logo />
 <Navbar />
-<Youtube />
+<Shop />
 <Footer />
 </div>
 
@@ -61,7 +61,7 @@ class App extends Component {
         <Route exact path='/gallery' component={Gallery1}/>
         <Route exact path='/contact' component={Contact1}/>
         <Route exact path='/market' component={Market1}/>
-        <Route exact path='/youtube' component={Youtube1}/>
+        <Route exact path='/shop' component={Shop1}/>
       </div>
       </Router>
     );
