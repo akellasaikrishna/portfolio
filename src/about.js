@@ -26,7 +26,7 @@ class About extends Component{
             ***
             </p>
             <p>
-            Currently Ian uploading content on my YouTube channel "GORANDOMKRISHNA". You can find the page intro
+            Currently I am uploading content on my YouTube channel "GORANDOMKRISHNA". You can find the page intro
             and also link to the channel and my content in the navigation bar.
             </p>
             <p>
